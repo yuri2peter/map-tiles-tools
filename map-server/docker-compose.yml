@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  tileserver_gl:
+    image: maptiler/tileserver-gl
+    container_name: tileserver_gl
+    volumes:
+      - ./volumes:/data
+    command: -p 8084
+    ports:
+      - "8084:8084"
