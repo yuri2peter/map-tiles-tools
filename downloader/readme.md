@@ -14,6 +14,3 @@
 
 处理好的地图将会保存在 data/tiles.mbtiles
 
-## 待定问题
-
-- 不确定是否需要在 data 目录下放置 water_polygons.shp 文件，需测试
